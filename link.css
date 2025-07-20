@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(194,131,64) ;
+    margin: 0;
+}
+.face{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    height: 150vh;
+    width: 500px;
+border-radius:50%;
+    background-color: rgba(6, 22, 53, 0.959);
+    color: rgba(125, 241, 8, 0.89);
+
+    position:absolute;
+    top: -25vh;
+    right: -250px;
+    position: fixed;
+    transform: scale(1.5);
+    z-index: 10;
+    transition: all 1.3s ease ;
+}
+.circle:hover{
+    transform: scale(1.57);
+    background-color: rgba(125, 241, 8, 0.89);
+    color: rgba(6, 22, 53, 0.959);
+}
+.dirt{
+    height: 150px;
+    width:150px;
+    background-color:rgb(133,79,43);
+    position:absolute;
+    bottom:260px;
+    left: 70px;
+    z-index: 1;
+    
+    transform: rotate(0deg);
+    transition: transform 18s ease-in-out;
+    
+
+}
+.dirt:hover{
+    transform: rotate(1800deg);
+    cursor: pointer;
+   
+}
+.col{
+    
+    height: 3px;
+    width: 3px;
+    background-color: rgb(194, 131, 64);
+}
+.grass1{
+    background-color: rgb(112,178,55);
+    height: 30px;
+    width: 150px;
+}
+.grass2{
+    background-color: rgb(112,178,55);
+    height: 50px;
+    width: 50px;
+     position: relative;
+     top: -30px;
+     left: 0px;
+     transform: scaleY(0.8);
+}
+
+.grass3{
+    background-color: rgb(112,178,55);
+    height: 35px;
+    width: 25px;
+     position: relative;
+     top: -80px;
+      left: 50px;
+}
+
+.grass4{
+    background-color: rgb(112,178,55);
+    height: 75px;
+    width: 30px;
+     position: relative;
+       top: -115px;
+        left: 75px;
+}
+
+.grass5{
+    background-color: rgb(112,178,55);
+    height: 50px;
+    width: 45px;
+    position: relative;
+      top: -185px;
+       left: 105px;
+      
+}
+img{
+    position:relative;
+    top: -160px;
+    left: 0px;
+   
+}
+.mess{
+    position: absolute;
+    top: 280px;
+    left: 110px;
+   
+    font-style: normal;
+    font-family: freemono;
+    text-align: center;
+font-weight: 700;
+transform: scale(1.8);
+}
+.welcome{
+    height: 500px;
+    width: 330px;
+    background-color: transparent;
+    position:relative;
+    top: -30px;
+    left: 320px;
+    color: rgb(18, 18, 22) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-style: normal;
+    font-family: freemono;
+    text-align: center;
+font-weight: 700;
+transform: scale(2.8);
+flex-direction: column;
+
+}
+.wel{
+    position: relative;
+    top: 30px;
+    left: 38%;
+}
+.bet{
+    position:relative;
+    top: 35px;
+}
+header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(65, 65, 110) ;
+    align-items: center;
+   border-radius: 10px;
+    z-index: 5;
+    display: flex;
+    gap: 50px;
+   
+   
+   
+    padding-left: 50px;
+
+    
+}
+header button{
+    
+    border-radius: 10px;
+    background-color: rgb(40, 96, 110);
+    height: 50px;
+    width: 100px;
+    border: 2px solid  rgb(194, 131, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -40px;
+     color: rgb(107, 179, 1) ;
+     padding: 0px;
+     transform: scale(1);
+     transition: all 1.5s ease;
+      font-family: freemono;
+    font-weight: 900;
+  
+}
+header a{
+    text-decoration: none;
+}
+header button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: aliceblue;
+}
+.mod{
+    height:180px ;
+    width: 330px;
+    background-color: transparent;
+    display: flex;
+    gap: -10px;
+    margin-left: 30px;
+}
+.mod span{
+    width: 90px;
+    height: 120px;
+    border: 2px solid rgb(107, 179, 1);
+    margin: 2px;
+}
+.mod span a img{
+height: 90px;
+width: 80px;
+padding: 0px;
+position: relative;
+top: 5px;
+margin: 0px;
+}
+.mod span a p{
+    padding: 0px;
+    position: relative;
+    top: -10px;
+}
+.cur a button{
+    height: 20px;
+    width: 70px;
+    border: 2px solid transparent;
+    background-color: rgb(107, 179, 1);
+    border-radius:10px;
+    position: relative;
+    top: -10px;
+    color: blue;
+    font-size: 10px;
+    font-family: Geneva;
+    transform: scale(1);
+    transition: all 1.5s ease;
+}
+.cur a button:hover{
+    background-color:blue ;
+    color: rgb(107, 179, 1);
+    transform: scale(1.2);
+    cursor: pointer;
+
+}

@@ -1,0 +1,410 @@
+body{
+    background-color: rgb(37, 46, 165) ;
+    margin: 0;
+   
+}
+.face{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.head{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(146, 89, 81, 0.945);
+
+}
+.eye{
+    display: flex;
+    gap: 200px;
+   
+}
+.eye1{
+    height: 70px;
+    width: 50px;
+    background-color: black;
+    position: relative;
+top: 80px;
+left: 50px;
+}
+.eye2{
+    height: 70px;
+    width: 50px;
+    background-color: black;
+     position: relative;
+top: 80px;
+left: -50px;
+
+}
+.iris{
+     height: 70px;
+    width: 25px;
+    background-color: aliceblue;
+}
+.nose{
+    width: 70px;
+    height:35px;
+    background-color:brown;
+    position: relative;
+    top: 90px;
+    left: 115px;
+ 
+}
+.mouth{
+     width: 140px;
+    height:40px;
+    background-color:rgb(102, 15, 15);
+     position: relative;
+     top: 90px;
+    left: 80px;
+ 
+}
+.hair1{
+    background-color: black;
+    height: 140px;
+    width: 50px;
+    
+}
+.hair2{
+    background-color: black;
+    height: 80px;
+    width: 40px;
+    
+}
+.hair3{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    
+}
+.hair4{
+    background-color: black;
+    height: 80px;
+   width: 100px;
+    
+}
+.hair5{
+    background-color: black;
+    height: 140px;
+    width: 50px;
+    
+}
+.hair{
+    display: flex;
+   height: 300px;
+   width: 300px;
+   background-color:transparent;
+    position: relative;
+    top: -145px;
+}
+.bla1{
+    height:150px;
+    width: 20px;
+    background-color: black;
+     position: relative;
+    top: -35px;
+    left: 5px;
+}
+.bla2{
+    height:150px;
+    width: 20px;
+    background-color: black;
+    position: relative;
+    top: -35px;
+    left: -5px;
+}
+.pho1{
+    height:100px;
+    width: 20px;
+    background-color: aliceblue;
+     position: relative;
+    top: -35px;
+    left: 5px;
+}
+.pho2{
+    height:100px;
+    width: 20px;
+    background-color: aliceblue;
+     position: relative;
+    top: -35px;
+    left: -5px;
+}
+.pho4{
+    height:50px;
+    width: 10px;
+    background-color: aliceblue;
+     position: relative;
+    top: -35px;
+    left: -5px;
+}
+.pho3{
+    height:50px;
+    width: 10px;
+    background-color: aliceblue;
+     position: relative;
+    top: -35px;
+    left: 5px;
+}
+.mask{
+    height: 20px;
+    width: 310px;
+    background-color: red;
+    position: relative;
+    top: -445px;
+    left: -5px;
+}
+.mask1{
+    background-color:transparent;
+    height:18px ;
+    width: 10px;
+    position: relative;
+    top: -120px;
+    left: 50px;
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+}
+.mask3{
+    background-color:transparent;
+    height:18px ;
+    width: 10px;
+    position: relative;
+    top: -120px;
+    left: -50px;
+    border-left: 5px solid red;
+    border-bottom: 5px solid red;
+}
+.mask2{
+    height:154px;
+    width: 20px;
+    background-color:transparent;
+     position: relative;
+    top: -35px;
+    left:70px;
+    border-left: 5px solid red;
+    border-bottom: 5px solid red;
+}
+.mask4{
+    height:154px;
+    width: 20px;
+    background-color:transparent;
+     position: relative;
+    top: -35px;
+    left:-70px;
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+    z-index: -1;
+}
+.mask5{
+    height: 105px;
+    width: 300px;
+    background-color: transparent;
+    position: relative;
+    top: -90%;
+    left: -5px;
+    border-right: 5px solid red;
+    border-left: 5px solid red;
+    border-bottom: 5px solid red;
+    z-index: -1;
+
+}
+.circle{
+    height: 150vh;
+    width: 500px;
+border-radius:50%;
+    background-color: rgba(6, 22, 53, 0.959);
+    color: rgba(125, 241, 8, 0.89);
+
+    position:absolute;
+    top: -25vh;
+    right: -250px;
+    position: fixed;
+    transform: scale(1.5);
+    z-index: 10;
+    transition: all 1.3s ease ;
+}
+.circle:hover{
+    transform: scale(1.57);
+    background-color: rgba(125, 241, 8, 0.89);
+    color: rgba(6, 22, 53, 0.959);
+}
+.dirt{
+    height: 150px;
+    width:150px;
+    background-color:rgb(133,79,43);
+    position:absolute;
+    bottom:260px;
+    left: 70px;
+    z-index: 1;
+    
+    transform: rotate(0deg);
+    transition: transform 18s ease-in-out;
+    
+
+}
+.dirt:hover{
+    transform: rotate(1800deg);
+    cursor: pointer;
+   
+}
+.col{
+    
+    height: 3px;
+    width: 3px;
+    background-color: rgb(194, 131, 64);
+}
+.grass1{
+    background-color: rgb(112,178,55);
+    height: 30px;
+    width: 150px;
+}
+.grass2{
+    background-color: rgb(112,178,55);
+    height: 50px;
+    width: 50px;
+     position: relative;
+     top: -30px;
+     left: 0px;
+     transform: scaleY(0.8);
+}
+
+.grass3{
+    background-color: rgb(112,178,55);
+    height: 35px;
+    width: 25px;
+     position: relative;
+     top: -80px;
+      left: 50px;
+}
+
+.grass4{
+    background-color: rgb(112,178,55);
+    height: 75px;
+    width: 30px;
+     position: relative;
+       top: -115px;
+        left: 75px;
+}
+
+.grass5{
+    background-color: rgb(112,178,55);
+    height: 50px;
+    width: 45px;
+    position: relative;
+      top: -185px;
+       left: 105px;
+      
+}
+img{
+    position:relative;
+    top: -160px;
+    left: 0px;
+   
+}
+.mess{
+    position: absolute;
+    top: 310px;
+    left: 90px;
+    
+    font-style: normal;
+    font-family: freemono;
+    text-align: center;
+font-weight: 700;
+transform: scale(1.8);
+}
+.welcome{
+    height: 500px;
+    width: 400px;
+    background-color: transparent;
+    position:absolute;
+    top: 35px;
+    left: 50px;
+    color: rgb(107, 179, 1) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-style: normal;
+    font-family: freemono;
+    text-align: center;
+font-weight: 700;
+transform: scale(2.8);
+flex-direction: column;
+}
+.wel{
+    position: relative;
+    top: 30px;
+    left: 38%;
+}
+.bet{
+    position:relative;
+    top: 35px;
+}
+header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(78, 78, 236) ;
+    align-items: center;
+   border-radius: 10px;
+    z-index: 5;
+    display: flex;
+    gap: 50px;
+   
+   
+   
+    padding-left: 50px;
+
+    
+}
+header button{
+    
+    border-radius: 10px;
+    background-color: rgb(54, 125, 143);
+    height: 50px;
+    width: 100px;
+    border: 2px solid  rgb(194, 131, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -40px;
+     color: rgb(107, 179, 1) ;
+     padding: 0px;
+     transform: scale(1);
+     transition: all 1.5s ease;
+      font-family: freemono;
+    font-weight: 900;
+  
+}
+header a{
+    text-decoration: none;
+}
+header button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: aliceblue;
+}
+#home{
+    height: 100vh;
+    background-color: rgb(96,156,5);
+    
+}
+#links{
+  height: 100vh;
+  background-color: rgb(194,131,64);   
+}
+.des{
+     font-style: normal;
+    font-family: freemono;
+        color: rgb(107, 179, 1) ;
+position: absolute;
+bottom: -400px;
+left: 20%;
+font-size: 20px;
+font-weight: 700;
+padding: 30px;
+background-color: antiquewhite;
+
+
+}
